@@ -49,8 +49,7 @@
 # $path = (Convert-Path .)
 # Write-Host $path
 
-.\PADInstall.bat
-.\SetMinSizeCmd.bat | Out-Null
-.\StartSetupPAD.bat
-
-.\downloader.bat | Out-Null
+# .\PADInstall.bat
+# .\SetMinSizeAll.bat | Out-Null
+# .\DownloaderUIAutomation.bat | Out-Null
+# .\StartSetupPAD.bat
