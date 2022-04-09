@@ -60,4 +60,4 @@ Add-Type -Language CSharp -ReferencedAssemblies System.Windows.Forms,System.Draw
 '@
 
 start-sleep -Milliseconds 500
-[SendKeysEx]::WinD()
+[SendKeysEx]::WinDown()
