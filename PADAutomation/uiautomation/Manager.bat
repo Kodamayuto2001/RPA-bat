@@ -1,0 +1,2 @@
+call UiAutomationDownloader
+call Unzip
