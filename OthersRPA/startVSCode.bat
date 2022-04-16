@@ -2,6 +2,12 @@
 
 $ps = Get-Process | Where-Object { $_.Name -eq "Code" }
 
+try {
+    cd 'D:\workspace\progress-management'
+} catch {
+    cd 'C:'
+}
+
 if ($null -eq $ps) {
-    Start-Process code -WindowStyle Hidden
+    Start-Process code . -WindowStyle Hidden
 }
